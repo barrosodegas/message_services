@@ -17,6 +17,7 @@
 
 ## Running the example
 - Run RabbitMQ
+- Create user: "api" with password: "guest123" on RabbitMQ with administrator permissions
 - Compile: Directory: message_services/listener-rabbitmq-exchange/ --> Comand: mvn clean package -U -T 2 and Directory: message_services/publisher-rabbitmq-exchange/ --> Comand: mvn clean package -U -T 2
 - Run: java -jar message_services/listener-rabbitmq-exchange/target/listener-rabbitmq-exchange-0.0.1-SNAPSHOT.jar and java -jar message_services/publisher-rabbitmq-exchange/target/publisher-rabbitmq-exchange-0.0. 1-SNAPSHOT.jar
 - Access port to the endpoint that publishes messages: 8001
