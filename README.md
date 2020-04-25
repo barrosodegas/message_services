@@ -14,6 +14,7 @@
 - Have Java 8 installed and setup as your default JVM
 - Have a container or a virtual host running the RabbitMQ emssageria service on standard access ports and that are on the same network as the APIs will be executed
 - With RabbitMQ on the air, compile and execute the data publishing and consumption APIs
+- Find the IP address of the host where RabbitMQ is running and update this address in the "application.yml" file for each API before compiling the projects.
 
 ## Running the example
 - Run RabbitMQ
